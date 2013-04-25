@@ -4,8 +4,8 @@ require File.expand_path('../lib/rails-develotest/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Niklas Hofer\n"]
   gem.email         = ["niklas+dev@lanpartei.de"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Get rid of the Rails development environment}
+  gem.summary       = %q{Allow developers reloading the page during cucumber @javscript features}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
